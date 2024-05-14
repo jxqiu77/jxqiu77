@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![svg](https://raw.githubusercontent.com/jxqiu77/github-profile-3d//profile-green.svg)
+
 <!--
 **jxqiu77/jxqiu77** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
