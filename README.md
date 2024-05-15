@@ -9,26 +9,6 @@
 </picture>
 </a>
 
-<!--
-<!-- https://github.com/jstrieb/github-stats -->
-<div align="center">
-
-<a href="https://github.com/jstrieb/github-stats">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jxqiu77/github-stats/master/generated/overview.svg#gh-dark-mode-only">
-  <img alt="jxqiu77's github-stats" src="https://raw.githubusercontent.com/jxqiu77/github-stats/master/generated/overview.svg">
-</picture>
-</a>
-
-<a href="https://github.com/jstrieb/github-stats">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jxqiu77/github-stats/master/generated/languages.svg#gh-dark-mode-only">
-  <img alt="jxqiu77's github-stats" src="https://raw.githubusercontent.com/jxqiu77/github-stats/master/generated/languages.svg">
-</picture>
-</a>
-
-</div>
--->
 
 <!--
 **jxqiu77/jxqiu77** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
