@@ -5,7 +5,6 @@
   <img src="https://raw.githubusercontent.com/danielcshn/danielcshn/master/icons/wave.gif" width="30" height="30">
 </h3>
 
-
 <div align="center"> 
 
 <!--- https://readme-typing-svg.herokuapp.com --->
