@@ -1,4 +1,18 @@
-### Hi there 👋
+<div id="top"></div>
+
+<h3 align="center">
+  Welcome to Jiaxin's profile!
+  <img src="https://raw.githubusercontent.com/danielcshn/danielcshn/master/icons/wave.gif" width="30" height="30">
+</h3>
+
+
+<div align="center"> 
+
+<!--- https://readme-typing-svg.herokuapp.com --->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&size=24&duration=2500&color=007bff&center=true&vCenter=true&width=500&lines=Statistics;Probability)](https://git.io/typing-svg)
+ 
+![](https://komarev.com/ghpvc/?username=jxqiu7&color=007bff&label=Profile+Views&style=for-the-badge)
+</div>
 
 ![svg](https://raw.githubusercontent.com/jxqiu77/jxqiu77/main/profile-3d-contrib/profile-green-animate.svg)
 
