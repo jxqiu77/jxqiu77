@@ -1,6 +1,6 @@
 <div id="top"></div>
 <h3 align="center">
-  Welcome to Jiaxin's profile!
+  Welcome to my profile!
   <img src="https://raw.githubusercontent.com/danielcshn/danielcshn/master/icons/wave.gif" width="30" height="30">
 </h3>
 
