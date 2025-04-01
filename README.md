@@ -4,8 +4,6 @@
   <img src="https://raw.githubusercontent.com/danielcshn/danielcshn/master/icons/wave.gif" width="30" height="30">
 </h3>
 
-<div align="center"> 
-
 <div align="center">
 
 <a href="https://github.com/jstrieb/github-stats">
@@ -29,18 +27,3 @@
   <img alt="jxqiu77's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=jxqiu77&bg_color=ffffff&color=007bff&line=47a042&point=255322&hide_border=true">
 </picture>
 </a>
-
-<!--
-**jxqiu77/jxqiu77** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
