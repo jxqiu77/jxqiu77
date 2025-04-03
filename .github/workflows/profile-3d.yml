@@ -1,7 +1,32 @@
+# name: GitHub-Profile-3D-Contrib
+
+# on:
+#   schedule: # 03:00 JST == 18:00 UTC
+#     - cron: "0 18 * * *"
+#   workflow_dispatch:
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     name: generate-github-profile-3d-contrib
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+#           USERNAME: ${{ github.repository_owner }}
+#       - name: Commit & Push
+#         run: |
+#           git config user.name github-actions
+#           git config user.email github-actions@github.com
+#           git add -A .
+#           git commit -m "generated"
+#           git push
+
 name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
+  schedule: # 每天 03:00 JST（即 UTC 18:00）执行
     - cron: "0 18 * * *"
   workflow_dispatch:
 
@@ -9,16 +34,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+
     steps:
+      # 拉取当前仓库内容
       - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+
+      # 设置输出路径为 assets/3d-contrib
+      - name: Generate 3D GitHub Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          OUTPUT_DIR: assets/3d-contrib  # 设置生成文件的输出目录
+
+      # 提交更改并推送回当前分支
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
+          git add assets/3d-contrib
+          git commit -m "chore: update 3D contribution graph"
           git push
