@@ -29,6 +29,8 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add assets/3d-contrib
+
+          # 判断是否有变化
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
