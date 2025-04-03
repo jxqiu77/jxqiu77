@@ -9,16 +9,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      # 克隆仓库
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 生成 3D 贡献图，输出到指定目录
+      - name: Generate 3D GitHub Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          OUTPUT_DIR: assets/3d-contrib
+
+      # 提交并推送更改（仅 assets/3d-contrib 目录）
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
-          git push
+          git add assets/3d-contrib
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update 3D contribution graph"
+            git push
+          fi
