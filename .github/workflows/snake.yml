@@ -24,11 +24,15 @@ jobs:
             assets/snake/github-contribution-grid-snake.svg
             assets/snake/github-contribution-grid-snake.gif
 
-      # 提交更改并推送回当前分支
+      # 提交更改并推送回当前分支（只有有变更才提交）
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add assets/snake
-          git commit -m "chore: update snake contribution animation"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update snake contribution animation"
+            git push
+          fi
