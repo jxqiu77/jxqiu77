@@ -27,3 +27,5 @@
   <img alt="jxqiu77's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=jxqiu77&bg_color=ffffff&color=007bff&line=47a042&point=255322&hide_border=true">
 </picture>
 </a>
+
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jxqiu77&custom_title=My%20Contribution%20Graph&bg_color=ffffff&color=007bff&line=47a042&point=255322&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
